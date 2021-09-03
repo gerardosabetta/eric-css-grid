@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/eric-css-grid/static/css/main.a617e044.chunk.css",
+    "main.js": "/eric-css-grid/static/js/main.c45f73af.chunk.js",
+    "main.js.map": "/eric-css-grid/static/js/main.c45f73af.chunk.js.map",
+    "runtime-main.js": "/eric-css-grid/static/js/runtime-main.542e39fd.js",
+    "runtime-main.js.map": "/eric-css-grid/static/js/runtime-main.542e39fd.js.map",
+    "static/js/2.ebdc8b05.chunk.js": "/eric-css-grid/static/js/2.ebdc8b05.chunk.js",
+    "static/js/2.ebdc8b05.chunk.js.map": "/eric-css-grid/static/js/2.ebdc8b05.chunk.js.map",
+    "static/js/3.d0245b86.chunk.js": "/eric-css-grid/static/js/3.d0245b86.chunk.js",
+    "static/js/3.d0245b86.chunk.js.map": "/eric-css-grid/static/js/3.d0245b86.chunk.js.map",
+    "index.html": "/eric-css-grid/index.html",
+    "static/css/main.a617e044.chunk.css.map": "/eric-css-grid/static/css/main.a617e044.chunk.css.map",
+    "static/js/2.ebdc8b05.chunk.js.LICENSE.txt": "/eric-css-grid/static/js/2.ebdc8b05.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.542e39fd.js",
+    "static/js/2.ebdc8b05.chunk.js",
+    "static/css/main.a617e044.chunk.css",
+    "static/js/main.c45f73af.chunk.js"
+  ]
+}
