@@ -6,20 +6,35 @@ const vaccines = ['hepatitis', 'sida', 'covid'];
 
 const Table = styled.div({
   display: 'grid',
+  background: '#fafafa',
   gridTemplateColumns: `repeat(${ageRanges.length + 1}, 1fr)`
 });
 
 const VaccineName = styled.div(({ vaccineName }: any) => ({
-  gridColumnStart: 1
+  gridColumnStart: 1,
+  padding: '8px'
 }));
 
 const Dose = styled.div(({ from, to, vaccineIndex }: any) => ({
   gridColumnStart: from,
   gridColumnEnd: to,
   gridRowStart: vaccineIndex,
+  display: 'grid',
+  margin: '0 8px',
+  gridTemplateColumns: `repeat(${to - from}, 1fr)`,
   background: 'lightblue',
+  opacity: 1,
   borderRadius: '5rem'
 }));
+
+const DoseName = styled.div({
+  background: 'teal',
+  opacity: 1,
+  borderRadius: '5rem',
+  display: 'grid',
+  justifyContent: 'center',
+  alignItems: 'center'
+});
 
 const applications = [
   {
@@ -66,7 +81,9 @@ const Vaccines = () => {
 
           return (
             <Dose vaccineIndex={vaccineIndex} from={from} to={to}>
-              {application.vaccine} {dose.name}
+              <DoseName>
+                {application.vaccine} {dose.name}
+              </DoseName>
             </Dose>
           );
         });
